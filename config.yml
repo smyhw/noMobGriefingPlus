@@ -1,0 +1,26 @@
+#苦力怕相关
+Creeper:
+  #在哪些世界生效
+  enableWorlds:
+    - world
+    - ourworld_rpg
+  #完全阻止苦力怕爆炸
+  preventExplode: false
+  #============================================
+  #自定义苦力怕爆炸(以下仅当完全阻止苦力怕爆炸preventExplode为false时生效)
+  #============================================
+  #破坏方块
+  blockbreak: false
+  #爆炸威力
+  explodePower: 6
+  #爆炸产生火焰
+  setFire: false
+
+#末影人相关
+Enderman:
+  #阻止末影人操作方块
+  preventChangeBlock: true
+  #在哪些世界生效
+  enableWorlds:
+  - world
+  - ourworld_rpg
